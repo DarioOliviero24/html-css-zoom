@@ -54,12 +54,32 @@ footer{
     
 
 }
+.div1{
+    display: inline;
+    height: 20px;
+    width: 120px;
+    color: white;
+    background-color: gray;
+    position: relative;
+    left: 89%;
+    top: 3%;
+}
+.div2{
+    display: inline;
+    height: 23px;
+    width: 23px;
+    color: white;
+    background-color: gray;
+    position: relative;
+    left: 90%;
+    top: 3%;
+}
 .container {
     max-width: 100%;
     margin: auto;
     display: flex;
-    justify-content: flex-start;
-    align-content: center;
+    justify-content: center;
+    padding: 10px;
     text-align: center;
     
 }
@@ -100,13 +120,13 @@ footer{
     margin-left: 40px;
 }
 .margin9 {
-    margin-left: 325px;
+    margin-left: 380px;
 }
 .p{
-    font-size: 1rem;
+    font-size: 0.8rem;
 }
 .ps {
-    font-size: 1rem;
+    font-size: 0.8rem;
     color: white;
 }
 .a{
@@ -127,4 +147,7 @@ footer{
     display: inline-block;
     font-size: 16px;
    
+}
+.font{
+    font-size: 1rem;
 }
